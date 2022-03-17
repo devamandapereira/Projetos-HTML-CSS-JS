@@ -1,0 +1,78 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body {
+font-family: 'Fredoka', sans-serif;
+margin: 0 auto;
+}
+.container {
+    background-color: rgba(252, 179, 45, 0.74);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textview {
+    background-color: grey;
+    width: 242px;
+    height:140px;
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7%;
+}
+.botao {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: grey;
+    color: white;
+    font-size: 22px;
+    margin: 1.5px;
+}
+.main {
+    border:5px solid;
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    width: 248px;
+}
+.operacao {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgb(79, 120, 255);
+    font-size: 22px;
+}
+#zero {
+  margin: 4.5px;
+}
+#virgula {
+    margin: 4px;
+}
+#resultado {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin:4px;
+}
+#limpa {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgb(191, 255, 161);
+    font-size: 22px;
+    margin: 4px;
+    color: black;
+}
