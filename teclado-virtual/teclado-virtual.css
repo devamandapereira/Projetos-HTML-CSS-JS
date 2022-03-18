@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body {
+    margin: 0 auto;
+}
+.container {
+    background-color: rgba(241, 64, 0, 0.623);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container > h1 {
+    font-family: 'Fredoka', sans-serif;
+    width: 250px;
+    height: 50px;
+}
+.main {
+    background-color: grey;
+    margin: 20px;
+    width: 530px;
+}
+#textview {
+    text-align: right;
+    font-size: 30px;
+    width: 524px;
+    height: 80px;
+    border: 1px solid;
+}
+.botao {
+    margin-left: 0.5px;
+    width: 48px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.botaoespaco {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 35px;
+    margin-left: 20px;
+}

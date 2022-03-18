@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="teclado-virtual.js"></script>
+    <link rel="stylesheet" href="teclado-virtual.css">
+    <title>Teclado </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Teclado virtual básico com HTML5, CSS3 e JavaScript</h1>
+        <div class="main">
+            <form name="form">
+                <input type="textview" name="textview" id="textview">
+            </form>
+            <table>
+                <td>
+                    <input type="button" class="botao" onclick="insert ('q')" value="Q">
+                    <input type="button" class="botao" onclick="insert ('w')" value="W">
+                    <input type="button"class="botao"  onclick="insert ('e')" value="E">
+                    <input type="button" class="botao" onclick="insert ('r')" value="R">
+                    <input type="button" class="botao" onclick="insert ('t')" value="T">
+                    <input type="button" class="botao" onclick="insert ('y')" value="Y">
+                    <input type="button" class="botao" onclick="insert ('u')" value="U">
+                    <input type="button" class="botao" onclick="insert ('i')" value="I">
+                    <input type="button" class="botao" onclick="insert ('o')" value="O">
+                    <input type="button" class="botao" onclick="insert ('p')" value="P">
+                </td>
+            </table>
+            <table>
+                <td>
+                    <input type="button" class="botao" onclick="insert ('a')" value="A">
+                    <input type="button" class="botao" onclick="insert ('s')" value="S">
+                    <input type="button" class="botao" onclick="insert ('d')" value="D">
+                    <input type="button" class="botao" onclick="insert ('f')" value="F">
+                    <input type="button" class="botao" onclick="insert ('g')" value="G">
+                    <input type="button" class="botao" onclick="insert ('h')" value="H">
+                    <input type="button" class="botao" onclick="insert ('j')" value="J">
+                    <input type="button" class="botao" onclick="insert ('k')" value="K">
+                    <input type="button" class="botao" onclick="insert ('l')" value="L">
+                    <input type="button" class="botao" onclick="insert ('ç')" value="Ç">
+                </td>
+            </table>
+            <table>
+                <td>
+                    <input type="button" class="botao" onclick="insert ('z')" value="Z">
+                    <input type="button" class="botao" onclick="insert ('x')" value="X">
+                    <input type="button" class="botao" onclick="insert ('c')" value="C">
+                    <input type="button" class="botao" onclick="insert ('v')" value="V">
+                    <input type="button" class="botao" onclick="insert ('b')" value="B">
+                    <input type="button" class="botao" onclick="insert ('n')" value="N">
+                    <input type="button" class="botao" onclick="insert ('m')" value="M">
+                    <input type="button" class="botao" onclick="insert (',')" value=",">
+                    <input type="button" class="botao" onclick="apagar ()" value="<">
+                    <input type="button" class="botao" onclick="deletar ()" value="DEL">
+
+                </td>
+            </table>
+            <table>
+                <td>
+                     <input type="button" class="botaoespaco" onclick="espaco ()" value="">
+                </td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
